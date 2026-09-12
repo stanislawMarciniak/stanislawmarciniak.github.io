@@ -1,0 +1,63 @@
+- title: "LLM Architecture Evolution"
+  github: "https://github.com/stanislawMarciniak/llm_architecture_evolution"
+  image: "/assets/images/projects/llm_architectures_evolution.png"
+  alt: "Comparison charts of Polish language model architectures showing quality, latency and efficiency metrics"
+  description: >
+    Built and benchmarked five Polish language models representing major
+    architectural shifts from the original Transformer to modern sparse MoE designs.
+    Each model was trained from scratch on the same 2B-token corpus at ~75-78M
+    active parameters, totaling more than 10B training tokens. The study compares
+    language-model quality, content prediction, autoregressive stability,
+    instruction tuning and compute efficiency, revealing substantial differences
+    in both quality and latency across architectures.
+
+- title: "Lightweight Sentence Embeddings"
+  github: "https://github.com/stanislawMarciniak/custom-embedding-model"
+  image: "/assets/images/projects/custom_embedding_model.png"
+  image_compact: true
+  alt: "Dashboard for a lightweight sentence embedding model and semantic chat knowledge assistant"
+  description: >
+    Designed a 1.32 MB custom sentence encoder that achieved 0.777 Pearson
+    correlation on STS-B while being roughly 65× smaller and about 200× faster in
+    forward inference than MiniLM. Integrated it into a FastAPI + Supabase knowledge
+    assistant with hybrid BM25+dense retrieval, semantic caching, direct FAQ routing
+    and document-based RAG. The system serves FAQ and out-of-domain paths in
+    milliseconds and only invokes an LLM when retrieval requires generation.
+
+- title: "ResolveOps AI"
+  github: "https://github.com/stanislawMarciniak/multi-agent-resolveops"
+  image: "/assets/images/projects/multi_agent_resolveops.png"
+  alt: "ResolveOps AI multi-agent case resolution interface with investigator, planner and reviewer workflow"
+  description: >
+    Built a multi-agent enterprise case-resolution platform where an Investigator
+    gathers evidence, a Planner proposes remediation, and an independent Reviewer
+    validates the plan before execution. The system combines MCP tool boundaries,
+    policy RAG, human approval and deterministic execution so LLMs never write
+    directly to enterprise systems. Added prompt-injection defenses, resumable
+    case state, OpenTelemetry observability and evaluations comparing multi-agent,
+    single-agent and no-reviewer workflows.
+
+- title: "Sensitive Data Anonymizer"
+  github: "https://github.com/stanislawMarciniak/sensitive-data-anonymizer"
+  image: "/assets/images/projects/data_anonymizer.png"
+  alt: "Sensitive data anonymization pipeline interface for Polish text with entity placeholders"
+  description: >
+    Built a Polish sensitive-data anonymization pipeline for the NASK HACKNATION
+    challenge, combining regex validation, named-entity recognition and
+    morphological analysis. The system detects identifiers and contextual entities,
+    replaces them with structured placeholders, and can generate synthetic
+    replacements while preserving Polish grammar and sentence logic. I was
+    responsible for the anonymization model and for integrating the components into
+    one end-to-end pipeline.
+
+- title: "SwiftBoard"
+  github: "https://github.com/swift-soft/swift-board"
+  image: "/assets/images/projects/swiftboard.png"
+  alt: "SwiftBoard AI-assisted employee onboarding platform dashboard"
+  description: >
+    Co-built SwiftBoard, an AI-assisted employee onboarding platform designed to
+    make company knowledge easier to access for new hires and simpler to manage for
+    employers. The product uses RAG-based question answering over onboarding
+    content; I worked on the employer dashboard and the retrieval/RAG functionality.
+    The project won 1st place at Hack na Zdrowie 2 and was later developed further
+    for Forge of Talents.

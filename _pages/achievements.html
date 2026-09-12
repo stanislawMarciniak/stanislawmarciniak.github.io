@@ -1,0 +1,36 @@
+---
+layout: wide
+title: "Achievements"
+permalink: /achievements/
+author_profile: true
+excerpt: "Hackathon and competition results by Stanisław Marciniak."
+---
+
+{% include base_path %}
+
+<h1 class="page__title">Achievements</h1>
+
+<div class="achievement-list">
+  {% for item in site.data.achievements %}
+    <article class="achievement-card">
+      <div class="achievement-card__image">
+        <img
+          src="{{ base_path }}{{ item.image }}"
+          alt="{{ item.alt }}"
+          width="560"
+          height="400"
+          {% if forloop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %}
+        />
+      </div>
+      <div class="achievement-card__content">
+        <p class="achievement-card__placement">{{ item.placement }}</p>
+        <h2 class="achievement-card__title">{{ item.title }}</h2>
+        <p class="achievement-card__year">{{ item.year }}</p>
+        <p>{{ item.description | strip }}</p>
+        {% if item.url %}
+          <a class="achievement-card__link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">View post</a>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>

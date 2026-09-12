@@ -1,0 +1,71 @@
+- title: "HACKNATION 2025"
+  placement: "Finalist"
+  year: 2025
+  image: "/assets/images/achievements/hacknation.jpg"
+  alt: "HACKNATION 2025 finalist recognition"
+  url: "https://www.linkedin.com/posts/stmarciniak_proud-to-share-that-our-team-placed-in-the-activity-7436850911261405185-4xur?utm_source=share&utm_medium=member_desktop&rcm=ACoAADz2bqwBGBIMPV0xK8xx9AqdGY0ebpj6Q8A"
+  description: >
+    Reached the finals in NASK's challenge on Polish-text anonymization and
+    synthetic data generation. I developed the anonymization model and integrated
+    the components into an end-to-end pipeline preserving sentence logic and
+    Polish inflection.
+
+- title: "Huawei Tech Arena Poland 2025"
+  placement: "1st Place"
+  year: 2025
+  image: "/assets/images/achievements/huawei.jpg"
+  alt: "Huawei Tech Arena Poland 2025 first place award"
+  url: "https://www.linkedin.com/posts/stmarciniak_huaweitecharena-ai-machinelearning-activity-7404876745537183744-8GCe?utm_source=share&utm_medium=member_desktop&rcm=ACoAADz2bqwBGBIMPV0xK8xx9AqdGY0ebpj6Q8A"
+  description: >
+    Won 1st place in Huawei Tech Arena Poland 2025 with a custom architecture for
+    the Lightweight Sentence Embedding for Similarity Measurement challenge.
+    The solution focused on achieving strong semantic-similarity quality under
+    strict model-size and inference-latency constraints.
+
+- title: "BizOn"
+  placement: "1st Place"
+  year: 2024
+  image: "/assets/images/achievements/bizon.jpg"
+  alt: "BizOn hackathon first place team photo"
+  url: "https://www.linkedin.com/posts/kjmuszynski_w-miniony-weekend-mia%C5%82em-przyjemno%C5%9B%C4%87-uczestniczy%C4%87-ugcPost-7257856422049173504-Uljl?utm_source=share&utm_medium=member_desktop&rcm=ACoAADz2bqwBGBIMPV0xK8xx9AqdGY0ebpj6Q8A"
+  description: >
+    Won 1st place at the BizOn hackathon organized by Innovations Hub Foundation.
+    Our team built a solution aimed at improving employee wellbeing during an
+    intensive 24-hour product-development challenge.
+
+- title: "Collabothon 2024"
+  placement: "1st Place"
+  year: 2024
+  image: "/assets/images/achievements/collabothon.jpg"
+  alt: "Collabothon 2024 first place recognition for Carbon Wise"
+  url: "https://www.linkedin.com/posts/centrum-innowacji-i-przedsi%C4%99biorczo%C5%9Bci-politechniki-%C5%82%C3%B3dzkiej_pocz%C4%85tek-roku-akademickiego-rozpoczynamy-ugcPost-7254085544563924992-YoyH?utm_source=share&utm_medium=member_desktop&rcm=ACoAADz2bqwBGBIMPV0xK8xx9AqdGY0ebpj6Q8A"
+  description: >
+    Won 1st place with Carbon Wise, a concept created for Commerzbank customers.
+    The project proposed an ESG-focused widget designed to make sustainability
+    information and environmentally conscious choices more accessible within
+    corporate banking.
+
+- title: "HACK NA ZDROWIE 3"
+  placement: "2nd Place"
+  year: 2024
+  image: "/assets/images/achievements/hacknazdrowie3.jpg"
+  alt: "HACK NA ZDROWIE 3 second place team photo"
+  url: "https://www.linkedin.com/posts/akademickie-biuro-karier-umed_hack-na-zdrowie-3-dzi%C5%9B-prezentujemy-ugcPost-7209120893980094464-tseK?utm_source=share&utm_medium=member_desktop&rcm=ACoAADz2bqwBGBIMPV0xK8xx9AqdGY0ebpj6Q8A"
+  description: >
+    Won 2nd place with Supli, an AI-powered application for personalized supplement
+    recommendations based on users' needs, health conditions and goals. The concept
+    combined personalized guidance with engagement features such as reminders,
+    streaks and educational quizzes, and was designed to be adaptable to
+    e-commerce platforms.
+
+- title: "HACK NA ZDROWIE 2"
+  placement: "1st Place"
+  year: 2023
+  image: "/assets/images/achievements/hacknazdrowie2.jpg"
+  alt: "HACK NA ZDROWIE 2 first place team photo for SwiftBoard"
+  url: "https://www.linkedin.com/feed/update/urn:li:activity:7068682795681751040?utm_source=share&utm_medium=member_desktop&rcm=ACoAADz2bqwBGBIMPV0xK8xx9AqdGY0ebpj6Q8A"
+  description: >
+    Won 1st place with SwiftBoard, an AI-assisted onboarding platform designed to
+    make company knowledge easier to access for new employees. The system used
+    RAG-based question answering over onboarding content; I worked on the employer
+    dashboard and the retrieval/RAG functionality.

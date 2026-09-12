@@ -1,14 +1,32 @@
 ---
-layout: archive
+layout: wide
 title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
+excerpt: "Selected ML / AI and software engineering projects by Stanisław Marciniak."
 ---
 
 {% include base_path %}
 
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
+<div class="project-list">
+  {% for project in site.data.projects %}
+    <article class="project-card">
+      <h2 class="project-card__title">{{ project.title }}</h2>
+      <div class="project-card__image{% if project.image_compact %} project-card__image--compact{% endif %}">
+        <img
+          src="{{ base_path }}{{ project.image }}"
+          alt="{{ project.alt }}"
+          width="1100"
+          height="600"
+          {% if forloop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %}
+        />
+      </div>
+      <div class="project-card__content">
+        <p>{{ project.description | strip }}</p>
+        <div class="project-card__actions">
+          <a class="btn" href="{{ project.github }}" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </div>
+      </div>
+    </article>
+  {% endfor %}
+</div>
